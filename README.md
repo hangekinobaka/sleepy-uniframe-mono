@@ -15,16 +15,21 @@ If any specific package becomes suitable for collaborative development, it will 
 
 直接通过 `manifest.json` 添加引用，例如：  
 Install a package directly via `manifest.json`, like this:
-
 ```json
-"com.sleepy.feature": "https://github.com/yourname/sleepy-uniframe-mono.git?path=packages/[feature_path]"
+"com.sleepy.feature": "https://github.com/yourname/sleepy-uniframe-mono.git?path=packages/[feature_path]"   
 ```
+
+**About Demo:**    
+我不喜欢 Unity 的脑残 Samples~ 系统。
+想要试用 demo 场景？请直接把 Package 中的 Demo 复制到你项目的 `Assets` 目录里。
+
+I don’t like Unity’s stupid Samples~ system — it’s clunky and annoying to work with.
+If you want to check out the demo scene, just copy the Demo from the Package into your project’s `Assets` directory.
 
 ## 📚 当前提供的包列表 | Available Packages
 
 以下是目前可用的模块包路径（持续更新）：
 The following packages are available in this repository (keep updated):
-
 
 
 ### sleepy-unicore
