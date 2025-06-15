@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.sleepy.unicore": {
+      "version": "file:D:/Unity/sleepy-uniframe-mono/packages/unicore",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "2.8.2",
       "depth": 0,

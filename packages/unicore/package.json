@@ -11,12 +11,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hangekinobaka/sleepy-unicore"
-  },
-  "samples": [
-    {
-      "displayName": "Demo",
-      "description": "A demo scene showing how to use Unicore.",
-      "path": "Samples~/DemoScene"
-    }
-  ]
+  }
 }
