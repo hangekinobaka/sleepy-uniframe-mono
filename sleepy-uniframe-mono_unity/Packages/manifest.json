@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.sleepy.unicore": "file:D:/Unity/sleepy-uniframe-mono/packages/unicore",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.feature.development": "1.0.1",
     "com.unity.textmeshpro": "3.0.6",

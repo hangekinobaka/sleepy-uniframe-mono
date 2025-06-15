@@ -16,7 +16,7 @@ If any specific package becomes suitable for collaborative development, it will 
 直接通过 `manifest.json` 添加引用，例如：  
 Install a package directly via `manifest.json`, like this:
 ```json
-"com.sleepy.feature": "https://github.com/yourname/sleepy-uniframe-mono.git?path=packages/[feature_path]"   
+"com.sleepy.feature": "https://github.com/yourname/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/[feature_path]"   
 ```
 
 **About Demo:**    
@@ -38,7 +38,7 @@ The following packages are available in this repository (keep updated):
 Universal core utilities for the Sleepy Unity packages.    
 `com.sleepy.unicore`
 ```
-https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=packages/unicore
+https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/unicore
 ```
 
 
