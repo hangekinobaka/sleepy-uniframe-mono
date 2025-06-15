@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Sleepy UniCore",
   "description": "Core shared utilities for the Sleepy Unity package family, including logging, config, and attributes.",
-  "unity": "2020.3",
+  "unity": "2022.3",
   "author": {
     "name": "He Yiran (SleepyCat)",
     "url": "https://github.com/hangekinobaka"
@@ -11,5 +11,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hangekinobaka/sleepy-unicore"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A demo scene showing how to use Unicore.",
+      "path": "Samples~/DemoScene"
+    }
+  ]
 }

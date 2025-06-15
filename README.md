@@ -17,7 +17,7 @@ If any specific package becomes suitable for collaborative development, it will 
 Install a package directly via `manifest.json`, like this:
 
 ```json
-"com.yourname.core": "https://github.com/yourname/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/package-name"
+"com.sleepy.feature": "https://github.com/yourname/sleepy-uniframe-mono.git?path=packages/[feature_path]"
 ```
 
 ## 📚 当前提供的包列表 | Available Packages
@@ -29,10 +29,11 @@ The following packages are available in this repository (keep updated):
 
 ### sleepy-unicore
 
+核心通用模块，通常不用单独引用。   
 Universal core utilities for the Sleepy Unity packages.    
 `com.sleepy.unicore`
 ```
-https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/sleepy-unicore
+https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=packages/unicore
 ```
 
 
