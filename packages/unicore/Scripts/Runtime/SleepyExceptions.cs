@@ -7,19 +7,19 @@ namespace Sleepy
     {
         // 无参数的默认构造函数 / Default constructor without parameters
         public SleepyException()
-            : base(Sleepy.PREPEND + "An exception has occurred.")
+            : base(SleepyConsts.LOG_PREPEND + "An exception has occurred.")
         {
         }
 
         // 带消息的构造函数 / Constructor with message
         public SleepyException(string message)
-            : base(Sleepy.PREPEND + message) // Pass the message with prefix
+            : base(SleepyConsts.LOG_PREPEND + message) // Pass the message with prefix
         {
         }
 
         // 带消息和内部异常的构造函数 / Constructor with message and inner exception
         public SleepyException(string message, System.Exception innerException)
-            : base(Sleepy.PREPEND + message, innerException) // Inner exception for exception chaining
+            : base(SleepyConsts.LOG_PREPEND + message, innerException) // Inner exception for exception chaining
         {
         }
 

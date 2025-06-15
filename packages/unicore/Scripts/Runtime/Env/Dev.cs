@@ -4,6 +4,7 @@ namespace Sleepy
 {
     public static class Dev
     {
+
         #region Debug 
 
         /// <summary>
@@ -14,7 +15,7 @@ namespace Sleepy
         [Conditional(SleepyConsts.DEV_ENV)]
         public static void Log(object message)
         {
-            UnityEngine.Debug.Log(message);
+            UnityEngine.Debug.Log(SleepyConsts.LOG_PREPEND + message);
         }
 
         /// <summary>
@@ -23,9 +24,9 @@ namespace Sleepy
         /// </summary>
         /// <param name="message">要打印的错误消息。/ The error message to log.</param>
         [Conditional(SleepyConsts.DEV_ENV)]
-        public static void LogError(object message)
+        public static void Error(object message)
         {
-            UnityEngine.Debug.LogError(message);
+            UnityEngine.Debug.LogError(SleepyConsts.LOG_PREPEND + message);
         }
 
         /// <summary>
@@ -34,9 +35,9 @@ namespace Sleepy
         /// </summary>
         /// <param name="message">要打印的警告消息。/ The warning message to log.</param>
         [Conditional(SleepyConsts.DEV_ENV)]
-        public static void LogWarning(object message)
+        public static void Warning(object message)
         {
-            UnityEngine.Debug.LogWarning(message);
+            UnityEngine.Debug.LogWarning(SleepyConsts.LOG_PREPEND + message);
         }
 
         #endregion

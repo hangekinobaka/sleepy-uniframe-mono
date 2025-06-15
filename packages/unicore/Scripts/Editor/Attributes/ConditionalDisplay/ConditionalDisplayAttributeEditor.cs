@@ -102,7 +102,7 @@ namespace Sleepy
                     return condProperty.stringValue.Equals(condValue.ToString());
                 // 在这里添加其他类型的检查 / Add checks for other types here
                 default:
-                    Sleepy.Warning($"Unsupported property type {condProperty.propertyType} in ConditionalDisplayAttribute.");
+                    Dev.Warning($"Unsupported property type {condProperty.propertyType} in ConditionalDisplayAttribute.");
                     return false; // 不支持的类型默认返回 false / Unsupported types default to false
             }
         }
