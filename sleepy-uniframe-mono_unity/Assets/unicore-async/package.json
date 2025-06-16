@@ -1,0 +1,15 @@
+{
+  "name": "com.sleepy.unicore_async",
+  "version": "1.0.0",
+  "displayName": "Sleepy UniCore Async",
+  "description": "Universal core utilities with async support. Requires UniRx and UniTask.",
+  "unity": "2022.3",
+  "author": {
+    "name": "He Yiran (SleepyCat)",
+    "url": "https://github.com/hangekinobaka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangekinobaka/sleepy-uniframe-mono"
+  }
+}

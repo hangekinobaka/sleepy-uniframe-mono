@@ -645,7 +645,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: SLEEPY_PROD_ENV
+    Standalone: SLEEPY_DEV_ENV
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
