@@ -37,3 +37,15 @@ The following packages are available in this repository (keep updated):
 | `sleepy-unicore`       | 核心通用模块，通常无需单独引用。<br>Universal core utilities for the Sleepy Unity packages.                                  | `com.sleepy.unicore`       | None           | [https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono\_unity/Assets/unicore](https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/unicore)             |
 | `sleepy-unicore-async` | 带 Async 功能的核心模块，依赖 UniRx 与 UniTask。<br>Universal core utilities with async support. Requires UniRx and UniTask. | `com.sleepy.unicore-async` | UniRx, UniTask      | [https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono\_unity/Assets/unicore-async](https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/unicore-async) |
 | `sleepy-ui-tab`        | 快速搭建 Tab UI 的组件模块。<br>A lightweight module for quickly building Tab UI.                                            | `com.sleepy.ui.tab`        | UniRx, UniTask, sleepy-unicore, sleepy-unicore-async             | [https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono\_unity/Assets/ui/tab](https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=sleepy-uniframe-mono_unity/Assets/ui/tab)               |
+
+
+## Other Dependencies
+
+
+这些是开发时用到的版本，你可以自行使用更新版本，不过可能会有不知名风险      
+These are the versions used during development.   
+You may use newer versions at your own discretion, but doing so may introduce unknown risks.   
+
+- UniRx Ver 7.1.0 - https://github.com/neuecc/UniRx/releases
+- UniTask Ver.2.5.0 - https://github.com/Cysharp/UniTask/releases
+- DOTween v1.2.765(February 4, 2024) - https://dotween.demigiant.com/download.php
