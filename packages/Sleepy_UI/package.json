@@ -1,0 +1,22 @@
+{
+  "name": "com.sleepy.ui",
+  "version": "1.0.0",
+  "displayName": "Sleepy UI",
+  "description": "The sleepy UI module.\n\n-- DEPENDENCIES --\n UniRx, UniTask, sleepy-unicore",
+  "unity": "2022.3",
+  "author": {
+    "name": "He Yiran (SleepyCat)",
+    "url": "https://github.com/hangekinobaka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangekinobaka/sleepy-uniframe-mono"
+  },
+  "samples": [
+    {
+      "displayName": "Tab Demo",
+      "description": "Tab component demo.",
+      "path": "Samples~/TabDemo"
+    }
+  ]
+}

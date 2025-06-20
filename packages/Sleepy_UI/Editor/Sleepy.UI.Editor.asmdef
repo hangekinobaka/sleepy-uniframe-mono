@@ -1,0 +1,19 @@
+{
+    "name": "Sleepy.UI.Editor",
+    "rootNamespace": "Sleepy.UI",
+    "references": [
+        "GUID:49d24bc3c43fb2645ac15dc20bfea951",
+        "GUID:25f1877c0d3c5e94cb724ac8cd7bbeaa"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Sleepy.Loading.Editor",
+    "rootNamespace": "Sleepy.Loading",
+    "references": [
+        "Unity.Addressables.Editor",
+        "Sleepy.Unicore"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

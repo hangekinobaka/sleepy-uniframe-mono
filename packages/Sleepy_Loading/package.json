@@ -1,0 +1,27 @@
+{
+  "name": "com.sleepy.loading",
+  "version": "1.0.0",
+  "displayName": "Sleepy Loading",
+  "description": "Tools for async asset and scene loading.\n\n-- DEPENDENCIES --\n Addressable, UniRx, UniTask, sleepy-unicore, sleepy-unicore-async",
+  "unity": "2022.3",
+  "author": {
+    "name": "He Yiran (SleepyCat)",
+    "url": "https://github.com/hangekinobaka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangekinobaka/sleepy-uniframe-mono"
+  },
+  "samples": [
+    {
+      "displayName": "Asset Loading Demo",
+      "description": "Addressable asset loading demo.",
+      "path": "Samples~/AssetLoadingDemo"
+    },
+    {
+      "displayName": "Scene Loading Demo",
+      "description": "Single scene loading, multiple scene loading. Can cancel and unload scenes.",
+      "path": "Samples~/SceneLoadingDemo"
+    }
+  ]
+}
