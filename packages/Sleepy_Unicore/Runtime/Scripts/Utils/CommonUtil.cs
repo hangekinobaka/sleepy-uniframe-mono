@@ -105,7 +105,7 @@ namespace Sleepy
                 return true;
             }
 
-            Dev.Error($"Cannot get file in {path}");
+            if (doLog) Dev.Error($"Cannot get file from path `{path}`");
             return false;
         }
 

@@ -1,0 +1,20 @@
+{
+    "name": "Sleepy.Routing.Editor",
+    "rootNamespace": "Sleepy.Routing",
+    "references": [
+        "GUID:a85ad39392dcf8d4d92c17d63ad1965f",
+        "GUID:6dce17e9445bb2c48a2a63bbdebcba72",
+        "GUID:25f1877c0d3c5e94cb724ac8cd7bbeaa"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

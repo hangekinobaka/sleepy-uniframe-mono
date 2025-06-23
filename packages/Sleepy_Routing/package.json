@@ -1,0 +1,22 @@
+{
+  "name": "com.sleepy.routing",
+  "version": "1.0.0",
+  "displayName": "Sleepy Routing",
+  "description": "A webpage-like routing system for the Unity UI.\n\n-- DEPENDENCIES --\n UniTask, Sleepy Unicore, Sleepy Unicore-Editor, Sleepy Loading",
+  "unity": "2022.3",
+  "author": {
+    "name": "He Yiran (SleepyCat)",
+    "url": "https://github.com/hangekinobaka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangekinobaka/sleepy-uniframe-mono"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Demo",
+      "description": "A very simple example of the routing system consisted of the Game View, the Main Menu and the Chat Window.",
+      "path": "Samples~/BasicDemo"
+    }
+  ]
+}

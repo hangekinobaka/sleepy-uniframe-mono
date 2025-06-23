@@ -6,6 +6,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.sleepy.routing": {
+      "version": "file:../../packages/Sleepy_Routing",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.sleepy.ui": {
       "version": "file:../../packages/Sleepy_UI",
       "depth": 0,

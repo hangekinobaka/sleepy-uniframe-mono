@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Demos/Sleepy Loading/SceneLoadingDemo/SceneLoadingDemoScene.unity
     guid: 9357a9cd0e19bb84492c705b01b382bd
+  - enabled: 1
+    path: Assets/Demos/Sleepy Routing/BasicDemo/ChatUI.unity
+    guid: 10d3eb8897392c7479c8d594ccbaaa76
+  - enabled: 1
+    path: Assets/Demos/Sleepy Routing/BasicDemo/MainUI.unity
+    guid: 753e35ba4a2bd814898d39216a0ce7be
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: a09c762572cf6854f8bd6a19b4b34c40, type: 2}

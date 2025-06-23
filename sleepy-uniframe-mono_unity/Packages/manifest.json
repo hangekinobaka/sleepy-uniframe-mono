@@ -4,6 +4,7 @@
     "com.sleepy.unicore_async": "file:../../packages/Sleepy_Unicore_Async",
     "com.sleepy.ui": "file:../../packages/Sleepy_UI",
     "com.sleepy.loading": "file:../../packages/Sleepy_Loading",
+    "com.sleepy.routing": "file:../../packages/Sleepy_Routing",
     "com.unity.addressables": "1.21.21",
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.feature.development": "1.0.1",

@@ -31,6 +31,7 @@ The following packages are available in this repository (keep updated):
 | `sleepy-unicore-async` | 带 Async 功能的核心模块，依赖 UniRx 与 UniTask。<br>Universal core utilities with async support. Requires UniRx and UniTask. | `com.sleepy.unicore-async` | UniRx, UniTask      | https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=packages/Sleepy_Unicore_Async |
 | `sleepy-ui`        | Sleepy UI 模块<br>The sleepy UI module.                                            | `com.sleepy.ui`        | UniRx, UniTask, sleepy-unicore, sleepy-unicore-async             | https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=packages/Sleepy_UI               |
 | `sleepy-loading`        | Asset 和 Scene 的异步读取模块<br>Tools for async asset and scene loading.                                            | `com.sleepy.loading`        | Addressable, UniRx, UniTask, sleepy-unicore, sleepy-unicore-async             | https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=packages/Sleepy_Loading               |
+| `sleepy-routing`        | 一个支持类似网页导航的 Unity UI 路由机制<br>A webpage-like routing system for the Unity UI.                                           | `com.sleepy.routing`        | UniTask, sleepy-unicore, sleepy-loading             | https://github.com/hangekinobaka/sleepy-uniframe-mono.git?path=packages/Sleepy_Routing               |
 
 
 ## Other Dependencies

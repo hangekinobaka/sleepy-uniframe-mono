@@ -1,0 +1,28 @@
+{
+    "routes": [
+        {
+            "name": "MenuIndex",
+            "path": "MainUI/Canvas/MainMenu/MenuIndex"
+        },
+        {
+            "name": "SettingPage",
+            "path": "MainUI/Canvas/MainMenu/SettingPage"
+        },
+        {
+            "name": "CreditPage",
+            "path": "MainUI/Canvas/MainMenu/CreditPage"
+        },
+        {
+            "name": "PlayerHUD",
+            "path": "GameView/Canvas/HUD/PlayerHUD"
+        },
+        {
+            "name": "ChatMenu",
+            "path": "ChatUI/Canvas/ChatMenu"
+        },
+        {
+            "name": "ConversationWindow",
+            "path": "ChatUI/Canvas/ConversationWindow"
+        }
+    ]
+}
