@@ -17,6 +17,21 @@
       "displayName": "Tab Demo",
       "description": "Tab component demo.",
       "path": "Samples~/TabDemo"
+    },
+    {
+      "displayName": "Slide Show Demo",
+      "description": "Slide Show component demo.",
+      "path": "Samples~/SlideShowDemo"
+    },
+    {
+      "displayName": "Subpage Demo",
+      "description": "Subpage component demo.",
+      "path": "Samples~/SubpageDemo"
+    },
+    {
+      "displayName": "Temp Canvas Demo",
+      "description": "Temp Canvas component demo.",
+      "path": "Samples~/TempCanvasDemo"
     }
   ]
 }
