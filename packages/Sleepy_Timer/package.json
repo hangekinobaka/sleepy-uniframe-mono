@@ -11,5 +11,22 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/hangekinobaka/sleepy-uniframe-mono"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Constant Time Timer Demo",
+      "description": "The timer will not follow the game time scale",
+      "path": "Samples~/ConstantTimeDemo"
+    },
+    {
+      "displayName": "Game Time Timer Demo",
+      "description": "The timer will follow the game time scale",
+      "path": "Samples~/GameTimeDemo"
+    },
+    {
+      "displayName": "Timeout Demo",
+      "description": "A demo scene of the Timeout functionalities",
+      "path": "Samples~/TimeoutDemo"
+    }
+  ]
 }
