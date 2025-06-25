@@ -138,5 +138,19 @@ namespace Sleepy
         }
 
         #endregion
+
+        #region Convert
+
+        /// <summary>
+        /// 将秒转换为毫秒。 / Converts seconds to milliseconds.
+        /// </summary>
+        /// <param name="seconds">要转换的秒数。比如 Time.time / The seconds to convert.</param>
+        /// <returns>转换后的毫秒数。 / The converted milliseconds.</returns>
+        public static int ToMilliseconds(float seconds)
+        {
+            return (int)(seconds * 1000f);
+        }
+
+        #endregion
     }
 }

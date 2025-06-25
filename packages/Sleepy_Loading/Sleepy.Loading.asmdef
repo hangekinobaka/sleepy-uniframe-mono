@@ -4,7 +4,6 @@
     "references": [
         "Unity.TextMeshPro",
         "Sleepy.Unicore",
-        "Sleepy.Unicore_Async",
         "UniTask",
         "UniRx",
         "Unity.Addressables",

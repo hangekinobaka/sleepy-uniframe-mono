@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UniRx;
 using UnityEngine.Events;
 
-namespace Sleepy.Async
+namespace Sleepy.Timer
 {
     /// <summary>
     /// 管理倒计时控制器的内部静态类。<br/>

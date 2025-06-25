@@ -1,10 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
-using Sleepy.Async;
 using Sleepy.Loading;
-using TMPro;
-using UniRx;
 using UnityEngine;
 
 namespace Sleepy.Demo.Loading
@@ -19,7 +16,6 @@ namespace Sleepy.Demo.Loading
     internal class SceneLoadingDemo : MonoBehaviour
     {
         [SerializeField] float _delay = 8f;
-        [SerializeField] TextMeshProUGUI _countdownTextUI;
 
         /// <summary>
         /// 加载单个场景。
@@ -77,31 +73,5 @@ namespace Sleepy.Demo.Loading
             SceneDirector.UnloadSceneAsync(sceneName).Forget();
         }
 
-        public async void LoadWithTimeout()
-        {
-            Progress<float> progress = new Progress<float>(ReportProgress);
-
-            // start timer
-            CountdownController controller = TimeUtil.StartCountdown(7);
-
-            controller.RemainingTime.Subscribe(val =>
-            {
-                _countdownTextUI.text = val.ToString();
-            }).AddTo(this);
-
-            try
-            {
-                await SceneDirector.LoadSceneAsync("DemoScene1", UnityEngine.SceneManagement.LoadSceneMode.Additive, progress, _delay).SleepyTimeout(7);
-            }
-            catch (SleepyTimeoutException e)
-            {
-                Debug.LogException(e);
-
-                SceneDirector.CancelLoading("DemoScene1").Forget();
-
-                controller.Stop();
-                _countdownTextUI.text = "Timeout!";
-            }
-        }
     }
 }

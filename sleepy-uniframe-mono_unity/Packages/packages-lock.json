@@ -12,6 +12,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.sleepy.timer": {
+      "version": "file:../../packages/Sleepy_Timer",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.sleepy.ui": {
       "version": "file:../../packages/Sleepy_UI",
       "depth": 0,
@@ -20,12 +26,6 @@
     },
     "com.sleepy.unicore": {
       "version": "file:../../packages/Sleepy_Unicore",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
-    "com.sleepy.unicore_async": {
-      "version": "file:../../packages/Sleepy_Unicore_Async",
       "depth": 0,
       "source": "local",
       "dependencies": {}

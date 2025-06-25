@@ -14,9 +14,9 @@
   },
   "samples": [
     {
-      "displayName": "Basic Demo",
-      "description": "Basic Demo.",
-      "path": "Samples~/BasicDemo"
+      "displayName": "Environment Switch Demo",
+      "description": "Switch in between dev and prod environment.",
+      "path": "Samples~/EnvironmentSwitchDemo"
     }
   ]
 }

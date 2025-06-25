@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UniRx;
 using UnityEngine.Events;
 
-namespace Sleepy.Async
+namespace Sleepy.Timer
 {
     /// <summary>
     /// 管理计时控制器的内部静态类。<br/>
@@ -167,6 +167,8 @@ namespace Sleepy.Async
             _timerSubscription = Observable.Interval(System.TimeSpan.FromSeconds(1), scheduler)
                 .Subscribe(_ =>
                 {
+                    if (_isPaused) return;
+
                     UpdateTime(_passedTime + 1); // 每次信号增加1秒 / Add 1 second every tick
                     _onTick?.Invoke(GetTime());
                 });
@@ -190,8 +192,11 @@ namespace Sleepy.Async
             _timerSubscription?.Dispose(); // 确保取消订阅 / Ensure subscription is disposed
             _timerSubscription = null;
 
-            _onTick(0);
-            _onTick = null;
+            if (_onTick != null)
+            {
+                _onTick(0);
+                _onTick = null;
+            }
 
             _useTimeScale = false;
 
@@ -220,8 +225,6 @@ namespace Sleepy.Async
                 return;
             }
 
-            _timerSubscription.Dispose(); // 取消订阅 / Dispose the subscription
-            _timerSubscription = null;
             _isPaused = true;
             Dev.Log("Timer paused!");
         }

@@ -3,7 +3,7 @@ using Cysharp.Threading.Tasks;
 using UniRx;
 using UnityEngine.Events;
 
-namespace Sleepy.Async
+namespace Sleepy.Timer
 {
     public static class TimeUtil
     {
@@ -292,18 +292,5 @@ namespace Sleepy.Async
 
         #endregion
 
-        #region Others
-
-        /// <summary>
-        /// 将秒转换为毫秒。 / Converts seconds to milliseconds.
-        /// </summary>
-        /// <param name="seconds">要转换的秒数。比如 Time.time / The seconds to convert.</param>
-        /// <returns>转换后的毫秒数。 / The converted milliseconds.</returns>
-        public static int ToMilliseconds(float seconds)
-        {
-            return (int)(seconds * 1000f);
-        }
-
-        #endregion
     }
 }

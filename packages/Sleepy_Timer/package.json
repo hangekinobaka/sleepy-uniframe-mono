@@ -1,8 +1,8 @@
 {
-  "name": "com.sleepy.unicore_async",
+  "name": "com.sleepy.timer",
   "version": "1.0.0",
-  "displayName": "Sleepy Unicore Async",
-  "description": "Universal core utilities with async support. Requires UniRx and UniTask.\n\n-- DEPENDENCIES --\n UniRx, UniTask",
+  "displayName": "Sleepy Timer",
+  "description": "sleepy-unicore.\n\n-- DEPENDENCIES --\n UniRx, UniTask, sleepy-unicore",
   "unity": "2022.3",
   "author": {
     "name": "He Yiran (SleepyCat)",
