@@ -7,41 +7,6 @@ namespace Sleepy
 {
     public static class CommonUtil
     {
-        #region Hierarchy
-
-        /// <summary>
-        /// Get hierarchy path
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
-        public static string GetHierarchyPath(GameObject obj)
-        {
-            string path = obj.name;
-            while (obj.transform.parent != null)
-            {
-                obj = obj.transform.parent.gameObject;
-                path = obj.name + "/" + path;
-            }
-            return path;
-        }
-
-        /// <summary>
-        /// Get SceneName + hierarchy path
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
-        public static string GetHierarchyPathWithSceneName(GameObject obj)
-        {
-            // 使用obj.scene获取GameObject所在的场景
-            string sceneName = obj.scene.name;
-            string hierarchyPath = GetHierarchyPath(obj);
-
-            string path = $"{sceneName}/{hierarchyPath}";
-            return path;
-        }
-
-        #endregion
-
         #region File IO
 
         /// <summary>
