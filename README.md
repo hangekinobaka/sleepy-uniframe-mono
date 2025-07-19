@@ -43,4 +43,3 @@ You may use newer versions at your own discretion, but doing so may introduce un
 
 - UniRx Ver 7.1.0 - https://github.com/neuecc/UniRx/releases/tag/7.1.0
 - UniTask Ver.2.5.0 - https://github.com/Cysharp/UniTask/releases/tag/2.5.0
-- DOTween v1.2.765(February 4, 2024) - https://dotween.demigiant.com/download.php

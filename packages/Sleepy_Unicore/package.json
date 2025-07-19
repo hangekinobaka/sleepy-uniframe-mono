@@ -17,6 +17,11 @@
       "displayName": "Environment Switch Demo",
       "description": "Switch in between dev and prod environment.",
       "path": "Samples~/EnvironmentSwitchDemo"
+    },
+    {
+      "displayName": "Debouncer Demo",
+      "description": "Debouncer for both UI and other behaviors.",
+      "path": "Samples~/Debounce"
     }
   ]
 }
