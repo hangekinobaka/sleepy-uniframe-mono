@@ -21,7 +21,12 @@
     {
       "displayName": "Debouncer Demo",
       "description": "Debouncer for both UI and other behaviors.",
-      "path": "Samples~/Debounce"
+      "path": "Samples~/DebounceDemo"
+    },
+    {
+      "displayName": "Interface Demo",
+      "description": "An implementation for a serializable wrapper that allows assigning interface-implementing MonoBehaviours via the Unity Inspector.",
+      "path": "Samples~/InterfaceDemo"
     }
   ]
 }

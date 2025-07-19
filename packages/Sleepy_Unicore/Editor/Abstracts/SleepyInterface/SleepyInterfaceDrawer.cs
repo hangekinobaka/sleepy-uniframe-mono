@@ -6,8 +6,8 @@ using UnityEngine;
 
 namespace Sleepy
 {
-    [CustomPropertyDrawer(typeof(SerializedInterface<>))]
-    public class SerializedInterfaceDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(SleepyInterface<>))]
+    public class SleepyInterfaceDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {

@@ -3,7 +3,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Sleepy.Uniframe
+namespace Sleepy
 {
     /// <summary>
     /// 为Singleton类定制的编辑器。<br/>
